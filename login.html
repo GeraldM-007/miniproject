@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+    <h1 class="h1">LOGIN</h1>
+
+<form  class="form">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" autofocus ><br><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" > <br><br>
+  <label for="phoneno">Phone Number:</label><br>
+  <input type="tel" id="phoneno" name="phoneno" placeholder="+254722548860"  required><br><br>
+  <label for="idno"> ID number:</label><br>
+  <input type="number" id="idno" name="idno" placeholder="26934220"><br><br>
+
+  <label for="country">Choose Country:</label><br>
+  <select name="country" id="country">
+  <option value="Kenya">Kenya</option>
+  <option value="America">America</option>  
+  <option value="India" selected>India</option>
+  <option value="China">China</option>
+  <option value="Japan">Japan</option>
+  <option value="SouthKorea">SouthKorea</option>
+  <option value="Nigeria">Nigeria</option>
+</select>
+
+</form><br>
+    <a href="GeraldsTrialPage.html"><button class="button"  type="button" onclick="alert('Logged in successfully')">submit!</button></a>
+</html>

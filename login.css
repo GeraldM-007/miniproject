@@ -1,0 +1,31 @@
+/*universal selector*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background: url(web20.jpg) fixed center no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.h1{
+  color: #000;
+  font-size: 16px;
+}
+input[type=text]:focus{
+background-color: lightblue;
+}
+.button{
+    width: 80px;
+    height: 20px;
+    font-size: 16px;
+    background-color: gray;
+    border-style: none;
+}
+.button:hover{
+    background-color: rgb(126, 174, 41);
+     cursor:pointer;
+}

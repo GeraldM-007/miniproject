@@ -1,0 +1,85 @@
+/* deisgning the whole page */
+body{
+    margin: 0;
+    padding: 0;
+    background: url(web20.jpg) center fixed no-repeat;
+ background-size: cover;
+background-position: center;
+font-family: sans-serif;
+}
+/*designing the whole login box */
+.loginbox{
+width: 320px;
+height: 500px;
+background: #000;
+color: #fff;
+top: 30%;
+left: 40%;
+position: absolute;
+transform: (-50%,-50%);
+box-sizing: border-box;
+padding: 70px 20px;
+border-radius: 10px;
+}
+/*positionig the avatar */
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+} 
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+/*sizing the input boxes*/
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+/* designig the input boxes */
+.loginbox input[type="text"] ,input[type="password"]{
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height: 40px;
+color: #fff;
+font-size: 16px;
+}
+/*desgning the button */
+.loginbox input[type="button"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+/* making the button hoveraby and designing it*/
+.loginbox input[type="button"]:hover{
+    cursor: pointer;
+    background-color: #ffc107;
+    color: #000;
+} 
+/* designig the links*/
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover{
+    color: #ffc107;
+}

@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(web40.jpg) fixed center no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.loginbox{
+    width: 400px;
+    height: 500px;
+    background-color: #000;
+    position:absolute;
+    top: 20%;
+    left: 40%;
+    border-radius: 20px;
+    font-style: sans-serif;
+    transform: (-50%,-50%);
+     box-sizing: border-box;
+    padding: 10px 20px;
+}
+h1{
+    color: #fff;
+    top: 40px;
+    text-align: center;
+    padding-left: 0;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: #fff solid ;
+    border-radius: 10px;
+}
+ .loginbox input[type="button"]{
+border: none;
+outline: none;
+border-radius: 20px;
+height: 60px;
+width: 100%;
+background: rgb(173, 54, 24);
+color: #fff;
+font-size: 16px;
+font-style: sans-serif;
+font-weight: bold;
+
+}
+.loginbox input[type="button"]:hover{
+    color: #000;
+    background-color:gray;
+    cursor: pointer;
+}
+a{
+    color: #fff;
+}
+ .loginbox a:hover{
+color: rgb(26, 119, 46);
+cursor: pointer;
+}
